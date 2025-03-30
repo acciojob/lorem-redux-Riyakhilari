@@ -2,7 +2,6 @@
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
 import axios from "axios";
-import reducer from "./reducers";
 
 // Action types
 export const FETCH_LOREM_REQUEST = "FETCH_LOREM_REQUEST";

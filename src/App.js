@@ -6,7 +6,6 @@ import './../styles/App.css';
 import { Provider } from "react-redux";
 import store from "./store";
 import Lorem from "./Lorem";
-
 const App = () => {
   return (
     <div>
